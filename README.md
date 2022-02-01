@@ -79,3 +79,8 @@ const Banner = styled.div<{ bgPhoto: string }>`
 
 <img width="1390" alt="스크린샷 2022-02-01 오후 10 29 05" src="https://user-images.githubusercontent.com/62709718/151977104-eab0f93c-76e8-496b-95e2-eff1ff7927e7.png">
 
+### 4. 슬라이더 구현
+`framer-motion` 을 이용하여 구현. 자주 쓰게 되는 함수의 경우 `utils.ts` 에서 따로 관리. 슬라이더에 6개씩 이미지를 띄우기 위해 사용한 로직을 살펴볼 필요가 있음
+
+![화면 기록 2022-02-01 오후 11 43 52](https://user-images.githubusercontent.com/62709718/151989972-a07972e7-5457-4d19-a7d4-9e10e9a32e07.gif)
+
