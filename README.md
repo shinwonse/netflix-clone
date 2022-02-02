@@ -103,3 +103,8 @@ const boxVariants = {
 ```
 위와 같이 `framer-motion` 에 `variants` 를 줘서 구현함. 또한 마우스를 오버했을때 영화의 제목이 나오도록 구현함.
 ![화면 기록 2022-02-02 오전 1 10 27](https://user-images.githubusercontent.com/62709718/152005678-0608f0bf-b5b9-4dbb-a00b-fdaa5d35c792.gif)
+
+### 6. 영화 클릭시 모달창 구현
+영화의 id를 받아서 클릭된 영화에 따른 모달창을 구현함. 조금 복잡했지만 다 해봤던 부분이라 크게 다른건 없었음. `background-size` 와 `background-position` 을 처음 활용해봄.
+
+![화면 기록 2022-02-02 오후 1 42 47](https://user-images.githubusercontent.com/62709718/152094309-10fd27e6-dfb2-4e1e-ade0-a7d2c16ae8f1.gif)
